@@ -1,0 +1,22 @@
+{
+	"manifest_version":2,
+	"name":"Getting Started color",
+	"version":"1.0",
+	"description":"This extension allows the user to change the background color of the current page",
+	"icons": {
+		"128":"icon128.png",
+		"48":"icon48.png",
+		"16":"icon16.png"
+		},
+	"browser_action":{
+			"default_icon":"icon16.png",
+			"default_popup":"window.html"
+			
+			},
+	"permissions":[
+		"activeTab",
+		"storage"
+]
+
+
+}
